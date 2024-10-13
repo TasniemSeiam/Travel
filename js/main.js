@@ -44,7 +44,7 @@ function weather() {
         .catch(error => {
             console.log(error);
         });
-
+        console.log("test fork")
     //////////end Egypt///
 
     fetch("http://api.weatherapi.com/v1/current.json?key=824a4ffa36e54650a65140311212512&q=Korea&aqi=no")
